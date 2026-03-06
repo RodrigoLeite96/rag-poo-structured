@@ -1,5 +1,4 @@
 import os
-from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from utils.variables import (
@@ -12,7 +11,7 @@ if __name__ == "__main__":
     emb = Embeddings()
     db = emb.instantiate_chromadb()
     
-    query = "INSERT YOUR QUESTION HERE"
+    query = "<INSERT YOUR QUESTION HERE>"
 
     docs_chroma = db.similarity_search_with_score(query, k=5)
 

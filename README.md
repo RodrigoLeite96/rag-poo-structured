@@ -14,7 +14,14 @@ This application reads a thermodynamics PDF, creates embeddings, stores them in 
 - Python 3.10+
 - OpenAI API key
 
-Install dependencies:
+Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install dependencies inside the virtual environment:
 
 ```bash
 pip install -r requirements.txt
