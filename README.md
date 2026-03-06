@@ -32,7 +32,7 @@ pip install -r requirements.txt
 Edit `utils/variables.py`:
 
 - `OPENAI_TOKEN`: your OpenAI API key
-- `DOC_PATH`: PDF path (default: `./documents/tabelas-thermo.pdf`)
+- `DOC_PATH`: PDF path (default: `./documents/<your-pdf>`)
 - `CHROMA_PATH`: vector DB directory (default: `vector-db`)
 
 ## Run
